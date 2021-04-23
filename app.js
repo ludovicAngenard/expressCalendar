@@ -1,8 +1,8 @@
 var express = require('express');
 var path = require('path');
 
-const {Tache, Calendrier} = require('./public/javascript/calendrier.js');
-const html = require('./public/javascript/calendrierHtml.js');
+const {Tache, Calendrier} = require('./public/javascripts/calendrier');
+const html = require('./public/javascripts/calendrierHtml');
 const http = require('http');
 
 var indexRouter = require('./routes/index');
